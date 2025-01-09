@@ -14,7 +14,7 @@ if (!projectId) {
 const metadata = { //this is optional
   name: "appkit-example",
   description: "AppKit Example - Bitcoin",
-  url: "https://reown-appkit-Bitcoin.vercel.app", // origin must match your domain & subdomain
+  url: "https://reown-appkit-bitcoin.vercel.app", // origin must match your domain & subdomain
   icons: ["https://avatars.githubusercontent.com/u/179229932"]
 }
 
@@ -29,9 +29,6 @@ const modal = createAppKit({
   metadata: metadata,
   features: {
     analytics: true, // Optional - defaults to your Cloud configuration
-    email: true, // default to true
-    socials: ['google', 'x', 'github', 'discord', 'apple', 'facebook', 'farcaster'],
-    emailShowWallets: true, // default to true
   },
   themeMode: 'light'
 })
